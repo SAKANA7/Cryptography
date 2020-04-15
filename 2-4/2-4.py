@@ -26,7 +26,7 @@ entropy=0
 print(key_point)
 print('the length of the key_point is: '+str(l))
 for key,value in key_point.items():
-    key_point[key]=value/l
+    key_point[key]=value/n
 for key,value in key_point.items():
     entropy+=-(key_point[key]*(math.log(key_point[key],2)))
 avergae_entropy=entropy/m
