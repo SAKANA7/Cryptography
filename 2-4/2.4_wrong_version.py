@@ -1,3 +1,5 @@
+'''这段代码没有任何意义，完全是我的错误理解，
+但写的时候出现了一些困难于是我打算把它留下来'''
 import string
 import math
 filename='hamlet2.txt'
@@ -29,7 +31,7 @@ m_letter_entropy=0#每个m元组的熵，随机变量为单个字母
 print(key_point)
 print('the length of the key_point is: '+str(l))
 for key,value in key_point.items():
-    key_point[key]=value/l
+    key_point[key]=value/n
 '''频率转化为概率'''
 for key,value in key_point.items():
     letters={}
